@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void main() {
-        System.out.println("==SELAMAT DATANG DI TOKO LUVIE BOBA==");
+        System.out.println("\n==SELAMAT DATANG DI TOKO LUVIE BOBA==");
         System.out.println("1 D'Boba");
         System.out.println("2 Dalgona Series");
         System.out.println("3 Biscoff Series");

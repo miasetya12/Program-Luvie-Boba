@@ -8,12 +8,10 @@ public class Beli {
         Scanner aa = new Scanner(System.in);
 
         System.out.println("================================");
-        System.out.print("Masukan Pilihan Anda: ");
+        System.out.print("Masukan Pilihan Minuman: ");
         pilihan = aa.nextInt();
         System.out.print("Masukan Jumlah Barang: ");
         jumlah = aa.nextInt();
-
-
         if (pilihan == 1 || pilihan == 2) {
             harga = 23000 * jumlah;
         } else {
@@ -29,7 +27,7 @@ public class Beli {
         Scanner aa = new Scanner(System.in);
 
         System.out.println("================================");
-        System.out.print("Masukan Pilihan Anda: ");
+        System.out.print("Masukan Pilihan Minuman: ");
         pilihan = aa.nextInt();
         System.out.print("Masukan Jumlah Barang: ");
         jumlah = aa.nextInt();
@@ -52,7 +50,7 @@ public class Beli {
         Scanner aa = new Scanner(System.in);
 
         System.out.println("================================");
-        System.out.print("Masukan Pilihan Anda: ");
+        System.out.print("Masukan Pilihan Minuman: ");
         pilihan = aa.nextInt();
         System.out.print("Masukan Jumlah Barang: ");
         jumlah = aa.nextInt();
