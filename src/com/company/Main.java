@@ -17,19 +17,19 @@ public class Main {
         System.out.print("Silahkan Masukan Pilihan Anda: ");
         Scanner input = new Scanner(System.in);
         int pilihan = input.nextInt();
-        System.out.println("================================");
+        System.out.print("================================\n");
         if (pilihan==1) {
             Varian.ori();
             Beli.isi1();
-            Terimakasih.ucapan();
+            Beli.ucapan();
         }else if(pilihan==2){
             Varian.dalgona();
             Beli.isi2();
-            Terimakasih.ucapan();
+            Beli.ucapan();
         }else if(pilihan==3){
             Varian.biscoff();
             Beli.isi3();
-            Terimakasih.ucapan();
+            Beli.ucapan();
         }else if(pilihan==4){
             System.exit(0);
         }else{

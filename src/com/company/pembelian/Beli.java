@@ -11,10 +11,10 @@ public class Beli {
         System.out.println("================================");
         System.out.print("Masukan Pilihan: ");
         pilihan = aa.nextInt();
-        if (pilihan == 4) {
+        if (pilihan ==4) {
             Main.main();
         }
-        System.out.print("Masukan Jumlah Barang: ");
+        System.out.print("Masukan Jumlah: ");
         jumlah = aa.nextInt();
         if (pilihan == 1 || pilihan == 2) {
             harga = 23000 * jumlah;
@@ -22,7 +22,7 @@ public class Beli {
             harga = 28000 * jumlah;
         }
 
-        System.out.println("Total harga barang : " + harga);
+        System.out.println("Total Harga: " + harga);
     }
 
     public static void isi2() {
@@ -36,10 +36,9 @@ public class Beli {
         if (pilihan == 4) {
             Main.main();
         }
-        System.out.print("Masukan Jumlah Barang: ");
+
+        System.out.print("Masukan Jumlah: ");
         jumlah = aa.nextInt();
-
-
         if (pilihan == 1) {
             harga = 23000 * jumlah;
         } else if (pilihan == 2) {
@@ -48,7 +47,7 @@ public class Beli {
             harga = 24000 * jumlah;
         }
 
-        System.out.println("Total harga barang : " + harga);
+        System.out.println("Total Harga: " + harga);
     }
 
     public static void isi3() {
@@ -62,16 +61,28 @@ public class Beli {
         if (pilihan == 4) {
             Main.main();
         }
-        System.out.print("Masukan Jumlah Barang: ");
+        System.out.print("Masukan Jumlah: ");
         jumlah = aa.nextInt();
-
-
         if (pilihan == 1) {
             harga = 29000 * jumlah;
         } else {
             harga = 30000 * jumlah;
         }
 
-        System.out.println("Total harga barang : " + harga);
+        System.out.println("Total Harga: " + harga);
+    }
+
+    public static void ucapan() {
+        int pilihan;
+        Scanner aa = new Scanner(System.in);
+        System.out.println("\n================================");
+        System.out.println("Mohon ditunggu, pesanan segera datang!");
+        System.out.print("Ingin memesan kembali? (1 = kembali, 2 = keluar) :  ");
+        pilihan = (char) aa.nextInt();
+        if (pilihan == 1) {
+            Main.main();
+        }else{
+            System.exit(0);
+        }
     }
 }
