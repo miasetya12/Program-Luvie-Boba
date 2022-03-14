@@ -18,13 +18,13 @@ public class Main {
         int pilihan = input.nextInt();
         System.out.println("================================");
         if (pilihan==1) {
-            Original.isi();
+            Varian.ori();
             Beli.isi1();
         }else if(pilihan==2){
-            Dalgona.isi();
+            Varian.dalgona();
             Beli.isi2();
         }else if(pilihan==3){
-            Biscoff.isi();
+            Varian.biscoff();
             Beli.isi3();
         }else{
             System.out.println("Pilihan yang anda masukan salah");
