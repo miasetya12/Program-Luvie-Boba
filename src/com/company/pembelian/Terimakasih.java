@@ -12,6 +12,8 @@ public class Terimakasih {
         pilihan = (char) aa.nextInt();
         if (pilihan == 'Y' || pilihan == 'y') {
             Main.main();
+        }else{
+            System.exit(0);
         }
     }
 }
