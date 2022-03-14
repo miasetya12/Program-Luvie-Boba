@@ -1,4 +1,5 @@
 package com.company.pembelian;
+import com.company.Main;
 import java.util.Scanner;
 
 public class Beli {
@@ -8,8 +9,11 @@ public class Beli {
         Scanner aa = new Scanner(System.in);
 
         System.out.println("================================");
-        System.out.print("Masukan Pilihan Minuman: ");
+        System.out.print("Masukan Pilihan: ");
         pilihan = aa.nextInt();
+        if (pilihan == 4) {
+            Main.main();
+        }
         System.out.print("Masukan Jumlah Barang: ");
         jumlah = aa.nextInt();
         if (pilihan == 1 || pilihan == 2) {
@@ -27,8 +31,11 @@ public class Beli {
         Scanner aa = new Scanner(System.in);
 
         System.out.println("================================");
-        System.out.print("Masukan Pilihan Minuman: ");
+        System.out.print("Masukan Pilihan: ");
         pilihan = aa.nextInt();
+        if (pilihan == 4) {
+            Main.main();
+        }
         System.out.print("Masukan Jumlah Barang: ");
         jumlah = aa.nextInt();
 
@@ -50,8 +57,11 @@ public class Beli {
         Scanner aa = new Scanner(System.in);
 
         System.out.println("================================");
-        System.out.print("Masukan Pilihan Minuman: ");
+        System.out.print("Masukan Pilihan: ");
         pilihan = aa.nextInt();
+        if (pilihan == 4) {
+            Main.main();
+        }
         System.out.print("Masukan Jumlah Barang: ");
         jumlah = aa.nextInt();
 
